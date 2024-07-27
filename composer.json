@@ -3,14 +3,15 @@
     "description": "Компонент Symfony для работы с Яндекс Метрикой",
     "type": "symfony-bundle",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": ">=8.3"
+        "php": ">=8.3",
+        "kuzmich11/jsonrpc-bundle": "dev-master"
     },
     "autoload": {
         "psr-4": {
-            "YandexMetrikaBundle\\": ""
+            "YandexMetrikaBundle\\": "src/"
         }
     }
 }
